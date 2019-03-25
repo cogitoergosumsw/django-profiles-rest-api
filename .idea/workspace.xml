@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cfbc21a-34e3-4977-81d1-e2c239acdeb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="133" column="18" lean-forward="true" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+            <state relative-caret-position="2608">
+              <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -52,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="352">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -95,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/profiles_project/profiles_project/urls.py" />
         <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/serializers.py" />
         <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/urls.py" />
-        <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" />
         <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py" />
+        <option value="$PROJECT_DIR$/src/profiles_project/profiles_api/views.py" />
       </list>
     </option>
   </component>
@@ -156,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520423144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553521238399" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cz3006/assignment 2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -188,12 +187,12 @@
       <workItem from="1553427081316" duration="252000" />
       <workItem from="1553427898554" duration="6539000" />
       <workItem from="1553474311738" duration="8517000" />
-      <workItem from="1553513354488" duration="4006000" />
+      <workItem from="1553513354488" duration="4807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19837000" />
+    <option name="totallyTimeSpent" value="20638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -370,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="133" column="18" lean-forward="true" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -389,8 +378,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/profiles_project/profiles_api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2608">
+          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
