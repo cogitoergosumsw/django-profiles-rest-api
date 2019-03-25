@@ -13,7 +13,7 @@ class HelloApiView(APIView):
     Test API View
     """
 
-    serializers_class = serializers.HelloSerializer
+    serializer_class = serializers.HelloSerializer
 
     def get(self, request, format=None):
         """
@@ -47,3 +47,31 @@ class HelloApiView(APIView):
             return Response({'message': message})
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def put(self, request, pk=None):
+        """
+        Handles updating an object
+        :param request:
+        :param pk:
+        :return:
+        """
+        # pk refers to the primary key
+        return Response({'method': 'put'})
+
+    def patch(self, request, pk=None):
+        """
+        Patch request, only updates fields provided in the request
+        :param request:
+        :param pk:
+        :return:
+        """
+        return Response({'method': 'patch'})
+
+    def delete(self, request, pk=None):
+        """
+        Deletes an object
+        :param request:
+        :param pk:
+        :return:
+        """
+        return Response({'method': 'delete'})
